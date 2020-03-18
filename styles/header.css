@@ -83,8 +83,6 @@
       -webkit-transition: 0.5s;
       transition: 0.5s; }
       .header__slider-arrow:hover {
-        -webkit-transform: scale(1.2);
-                transform: scale(1.2);
         background-color: #008aff; }
     .header__slider-left {
       background-image: url(../images/slider/1.svg); }

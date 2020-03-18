@@ -12,8 +12,6 @@
   -webkit-transition: 0.5s;
   transition: 0.5s; }
   .button:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
     background: #ff7e6c; }
 
 /*# sourceMappingURL=button.css.map */

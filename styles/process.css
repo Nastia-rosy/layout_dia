@@ -1,0 +1,37 @@
+.process {
+  padding: 148px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .process__description {
+    width: 362px; }
+  .process__subtitle {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c0cdd7;
+    margin-bottom: 16px; }
+  .process__title {
+    font-weight: 600;
+    font-size: 32px;
+    color: #253757;
+    margin-bottom: 24px; }
+    .process__title-italic {
+      font-style: italic; }
+  .process__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #6c788b;
+    margin-bottom: 16px; }
+  .process__cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr; }
+    .process__cards-wrapper--below {
+      margin-top: 132px; }
+
+/*# sourceMappingURL=process.css.map */
