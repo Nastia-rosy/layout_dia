@@ -1,0 +1,1 @@
+{"version":3,"sources":["section.scss"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,gBAAgB,EAAA;EAEhB;IACE,uBAAuB,EAAA","file":"section.css","sourcesContent":[".section {\n  padding: 0 30px;\n  overflow: hidden;\n\n  &--expertise {\n    background-color: white;\n\n  }\n}\n"]}

@@ -1,0 +1,55 @@
+.expertise {
+  padding: 128px 0 134px; }
+  .expertise__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 264px);
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center; }
+  .expertise__heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 52px;
+    color: #253757;
+    margin-bottom: 64px; }
+  .expertise__img {
+    width: 184px;
+    height: 166px;
+    border-radius: 20px; }
+  .expertise__photo {
+    margin-bottom: 40px; }
+  .expertise__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #253757;
+    margin-bottom: 16px; }
+  .expertise__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #6c788b; }
+
+@media screen and (max-width: 870px) {
+  .expertise__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .expertise__card {
+    width: 264px;
+    margin-bottom: 50px; } }
+
+@media screen and (max-width: 650px) {
+  .expertise__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+
+/*# sourceMappingURL=expertise.css.map */
