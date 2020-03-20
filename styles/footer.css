@@ -1,0 +1,19 @@
+.footer {
+  background-color: #008aff;
+  border-radius: 0 200px 0 0;
+  padding: 180px 0 84px;
+  color: white; }
+  .footer__information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 226px;
+    margin-bottom: 121px; }
+  .footer__nav-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+/*# sourceMappingURL=footer.css.map */

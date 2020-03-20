@@ -12,6 +12,12 @@
   -webkit-transition: 0.5s;
   transition: 0.5s; }
   .button:hover {
-    background: #ff7e6c; }
+    background: #ff7e6c;
+    -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+            box-shadow: 0 0 11px rgba(33, 33, 33, 0.2); }
+  .button--white:hover {
+    color: #ff7e6c;
+    background: white;
+    border: 1px solid #ff7e6c; }
 
 /*# sourceMappingURL=button.css.map */

@@ -1,0 +1,49 @@
+.aproach {
+  color: white;
+  width: 362px; }
+  .aproach__subtitle {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 16px; }
+  .aproach__title {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px; }
+  .aproach__photo {
+    position: absolute;
+    bottom: 0;
+    top: 296px;
+    right: -100px;
+    background-image: url(../images/aproach/photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 687px;
+    height: 680px;
+    border-radius: 200px 0 0; }
+  .aproach__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    margin-left: 98px; }
+  .aproach__item {
+    height: 64px;
+    margin-bottom: 64px;
+    position: relative; }
+  .aproach__icon {
+    position: absolute;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat; }
+    .aproach__icon--first {
+      background-image: url(../images/aproach/1.png); }
+    .aproach__icon--second {
+      background-image: url(../images/aproach/2.png); }
+    .aproach__icon--third {
+      background-image: url(../images/aproach/3.png); }
+
+/*# sourceMappingURL=aproach.css.map */

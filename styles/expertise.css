@@ -16,7 +16,15 @@
   .expertise__img {
     width: 184px;
     height: 166px;
-    border-radius: 20px; }
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .expertise__img:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+      -webkit-box-shadow: 0 0 11px rgba(44, 44, 44, 0.8);
+              box-shadow: 0 0 11px rgba(44, 44, 44, 0.8); }
   .expertise__photo {
     margin-bottom: 40px; }
   .expertise__title {

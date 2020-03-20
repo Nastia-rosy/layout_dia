@@ -1,0 +1,21 @@
+.testimonials {
+  padding: 148px 0; }
+  .testimonials__subtitle {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 16px;
+    color: #c0cdd7;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  .testimonials__title {
+    font-weight: 600;
+    font-size: 32px;
+    color: #253757;
+    margin-bottom: 85px; }
+  .testimonials__people {
+    display: grid;
+    grid-template-columns: repeat(3, 314px);
+    grid-gap: 102px; }
+
+/*# sourceMappingURL=testimonials.css.map */

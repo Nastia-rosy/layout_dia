@@ -5,6 +5,8 @@
   position: absolute;
   left: 123px;
   letter-spacing: 3px; }
+  .nav--footer {
+    position: static; }
   .nav__list {
     display: -webkit-box;
     display: -ms-flexbox;

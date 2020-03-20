@@ -6,7 +6,6 @@
   border-radius: 0 0 0 200px;
   padding: 0 30px; }
   .header__logo {
-    background-image: url(../images/logo/air-logo.svg);
     margin-right: 80px; }
   .header__top {
     padding-top: 49px;
@@ -61,7 +60,7 @@
     margin-bottom: 83px; }
   .header__slider {
     position: absolute;
-    right: 0;
+    right: -170px;
     bottom: 0;
     background-image: url(../images/slider/1.jpg);
     border-radius: 200px 0 0;
@@ -83,7 +82,15 @@
       -webkit-transition: 0.5s;
       transition: 0.5s; }
       .header__slider-arrow:hover {
-        background-color: #008aff; }
+        border: 1px solid rgba(171, 60, 60, 0.3);
+        background-color: #ff9c8e;
+        -webkit-box-shadow: 0 6px #ab3c3c;
+                box-shadow: 0 6px #ab3c3c;
+        opacity: 0.8; }
+      .header__slider-arrow:active {
+        bottom: 62px;
+        -webkit-box-shadow: 0 2px #ab3c3c;
+                box-shadow: 0 2px #ab3c3c; }
     .header__slider-left {
       background-image: url(../images/slider/1.svg); }
     .header__slider-right {
