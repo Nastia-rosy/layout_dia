@@ -494,10 +494,41 @@ ul {
   .person:hover {
     -webkit-box-shadow: 0 0 11px rgba(44, 44, 44, 0.5);
             box-shadow: 0 0 11px rgba(44, 44, 44, 0.5); }
-  .person:hover .person__rectangle {
-    top: 30px; }
+  .person__proffesion {
+    font-weight: bold;
+    color: #c0cdd7;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 4px;
+    text-transform: uppercase; }
+  .person__rectangle {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #56ccf2;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56ccf2;
+    border-radius: 500px;
+    -webkit-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    width: 139px;
+    height: 56px;
+    top: 50px;
+    left: 10px;
+    position: absolute;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .person__rectangle--down {
+      top: 130px;
+      left: 110px; }
+    .person__rectangle--yellow {
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304; }
+    .person__rectangle--red {
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #f25656;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #f25656; }
   .person:hover .person__rectangle--down {
     top: 160px; }
+  .person:hover .person__rectangle {
+    top: 30px; }
   .person__img {
     position: relative;
     border-radius: 50%;
@@ -543,39 +574,8 @@ ul {
     font-weight: 600;
     font-size: 13px;
     color: #253757; }
-  .person__proffesion {
-    font-weight: bold;
-    color: #c0cdd7;
-    font-size: 13px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 3px;
-    margin-top: 4px;
-    text-transform: uppercase; }
   .person__photo {
     position: relative; }
-  .person__rectangle {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #56ccf2;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56ccf2;
-    border-radius: 500px;
-    -webkit-transform: rotate(-60deg);
-            transform: rotate(-60deg);
-    width: 139px;
-    height: 56px;
-    top: 50px;
-    left: 10px;
-    position: absolute;
-    -webkit-transition: 0.5s;
-    transition: 0.5s; }
-    .person__rectangle--down {
-      top: 130px;
-      left: 110px; }
-    .person__rectangle--yellow {
-      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304; }
-    .person__rectangle--red {
-      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #f25656;
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #f25656; }
 
 .vision {
   padding: 199px 0;
