@@ -9,8 +9,8 @@
   width: 226px;
   height: 50px;
   cursor: pointer;
-  -webkit-transition: 0.5s;
-  transition: 0.5s; }
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
   .button:hover {
     background: #ff7e6c;
     -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
@@ -18,6 +18,8 @@
   .button--white:hover {
     color: #ff7e6c;
     background: white;
-    border: 1px solid #ff7e6c; }
+    border: 1px solid #ff7e6c;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
 
 /*# sourceMappingURL=button.css.map */

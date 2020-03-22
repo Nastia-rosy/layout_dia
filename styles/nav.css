@@ -4,18 +4,22 @@
   line-height: 150%;
   position: absolute;
   left: 123px;
-  letter-spacing: 3px; }
-  .nav--footer {
-    position: static; }
-  .nav__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+  letter-spacing: 3px;
+  text-transform: uppercase; }
   .nav__item {
     list-style: none;
     margin-right: 64px;
     display: inline-block;
     position: relative; }
+  .nav--footer {
+    position: static;
+    margin: 0 auto; }
+    .nav--footer .nav__item:last-child {
+      margin-right: 0; }
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
   .nav__link {
     color: white;
     text-decoration: none;

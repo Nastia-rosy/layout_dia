@@ -9,14 +9,12 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-bottom: 30px;
+  cursor: pointer;
   z-index: 1;
   -webkit-transition: -webkit-box-shadow 0.5s;
   transition: -webkit-box-shadow 0.5s;
   transition: box-shadow 0.5s;
   transition: box-shadow 0.5s, -webkit-box-shadow 0.5s; }
-  .card:hover {
-    -webkit-box-shadow: 0 0 11px rgba(44, 44, 44, 0.5);
-            box-shadow: 0 0 11px rgba(44, 44, 44, 0.5); }
   .card__number {
     width: 46px;
     height: 24px;
@@ -57,9 +55,6 @@
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s; }
-    .card__button:hover {
-      -webkit-transform: scale(1.2);
-              transform: scale(1.2); }
     .card__button--yellow {
       background-color: #fcc91d; }
       .card__button--yellow:hover {
@@ -73,11 +68,23 @@
       position: relative;
       height: 48px; }
     .card__button-text {
+      color: black;
       position: absolute;
       left: 64px;
       top: 10px;
       display: block;
       font-weight: 600;
-      font-size: 15px; }
+      font-size: 15px;
+      text-decoration: none;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+      .card__button-text:hover {
+        color: #6c788b; }
+  .card:hover {
+    -webkit-box-shadow: 0 0 11px rgba(44, 44, 44, 0.5);
+            box-shadow: 0 0 11px rgba(44, 44, 44, 0.5); }
+    .card:hover .card__button {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2); }
 
 /*# sourceMappingURL=card.css.map */

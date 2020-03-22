@@ -35,4 +35,30 @@
     .process__cards-wrapper--below {
       margin-top: 132px; }
 
+@media screen and (max-width: 1000px) {
+  .process {
+    grid-template-columns: 1fr;
+    margin-bottom: 148px;
+    padding-bottom: -148px; }
+  .process__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 264px);
+    grid-gap: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .process__description {
+    width: 100%;
+    text-align: center; }
+  .process__cards-wrapper--below {
+    margin-top: 0; } }
+
+@media screen and (max-width: 620px) {
+  .process__cards {
+    display: grid;
+    grid-template-columns: 264px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
+
 /*# sourceMappingURL=process.css.map */

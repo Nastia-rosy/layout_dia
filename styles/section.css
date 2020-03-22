@@ -1,4 +1,5 @@
 .section {
+  position: relative;
   padding: 0 30px;
   overflow: hidden; }
   .section--expertise, .section--vision {

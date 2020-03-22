@@ -1,6 +1,7 @@
 .vision {
   padding: 199px 0;
-  width: 754px;
+  max-width: 754px;
+  min-width: 300px;
   margin: 0 auto;
   text-align: center; }
   .vision__title {

@@ -9,7 +9,7 @@
   font-size: 24px; }
 
 .contact__number {
-  display: block;
+  display: inline;
   text-decoration: none;
   color: white;
   -webkit-transition: 0.5s;

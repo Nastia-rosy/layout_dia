@@ -17,16 +17,23 @@
     width: 184px;
     height: 166px;
     border-radius: 20px;
-    cursor: pointer;
     -webkit-transition: 0.5s;
     transition: 0.5s; }
-    .expertise__img:hover {
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1);
+  .expertise__card:hover .expertise__img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  .expertise__photo {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 184px;
+    border-radius: 20px;
+    height: 166px;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .expertise__photo:hover {
       -webkit-box-shadow: 0 0 11px rgba(44, 44, 44, 0.8);
               box-shadow: 0 0 11px rgba(44, 44, 44, 0.8); }
-  .expertise__photo {
-    margin-bottom: 40px; }
   .expertise__title {
     font-weight: 600;
     font-size: 20px;

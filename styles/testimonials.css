@@ -16,6 +16,27 @@
   .testimonials__people {
     display: grid;
     grid-template-columns: repeat(3, 314px);
-    grid-gap: 102px; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-gap: 7%; }
+
+@media screen and (max-width: 1207px) {
+  .testimonials__people {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .testimonials__person {
+    width: 314px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-right: 30px;
+    margin-bottom: 30px; }
+    .testimonials__person:nth-last-child {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=testimonials.css.map */
