@@ -4,7 +4,7 @@
     position: absolute;
     top: 0;
     left: -30px;
-    width: 320px;
+    right: -30px;
     opacity: 1;
     border-radius: 0 0 0 200px;
     /*z-index: 1;*/
@@ -17,7 +17,9 @@
     z-index: 1;
     display: block;
     top: 60px;
-    left: 60px; }
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%); }
   .checkbox:checked ~ .header > .container > .header__top > .header__nav > .nav__list {
     display: grid;
     grid-template-columns: 1fr;

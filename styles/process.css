@@ -39,7 +39,8 @@
   .process {
     grid-template-columns: 1fr;
     margin-bottom: 148px;
-    padding-bottom: -148px; }
+    padding-bottom: -148px;
+    padding-top: 100px; }
   .process__cards {
     display: grid;
     grid-template-columns: repeat(2, 264px);
@@ -49,7 +50,8 @@
             justify-content: center; }
   .process__description {
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 50px; }
   .process__cards-wrapper--below {
     margin-top: 0; } }
 
