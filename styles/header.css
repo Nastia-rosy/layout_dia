@@ -164,4 +164,12 @@
   .header__toggler {
     display: block; } }
 
+@media screen and (max-width: 480px) {
+  .header__logo {
+    margin-right: 0; } }
+
+@media screen and (max-width: 600px) {
+  .header {
+    border-radius: 0 0 50px 50px; } }
+
 /*# sourceMappingURL=header.css.map */

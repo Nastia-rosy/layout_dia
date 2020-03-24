@@ -1,9 +1,10 @@
 .vision {
   padding: 199px 0;
   max-width: 754px;
-  min-width: 300px;
+  min-width: 280px;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5); }
   .vision__title {
     font-weight: 600;
     font-size: 52px;
@@ -15,5 +16,10 @@
     font-size: 24px;
     color: #6c788b;
     margin-bottom: 64px; }
+
+@media screen and (max-width: 460px) {
+  .vision__text {
+    font-size: 20px;
+    margin-left: -10px; } }
 
 /*# sourceMappingURL=vision.css.map */
